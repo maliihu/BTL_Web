@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/font/stylesheet.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Phim sắp chiếu</title>
+    
+</head>
+<body>
+    <!-- ============== -->
+    <div class="content">
+        <div class="heading">
+            <h1 class="title">Phim Sắp Chiếu</h1>
+            <a href="./now-showing.html" class="sub-title">Phim đang chiếu</a>
+        </div>
+
+        <div class="carousel" data-bs-ride="carousel" id="carouselExample">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/img/cu-may-an-tien.jpg" alt="Cú máy ăn tiền" class="img-fluid movie-img">
+                                <a href="#!" class="link">Xem chi tiết</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#!" class="name">CÚ MÁY ĂN TIỀN</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/img/nguoi-vo-cuoi-cung.jpg" alt="Người vợ cuối cùng" class="img-fluid movie-img">
+                                <a href="#!" class="link">Xem chi tiết</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#!" class="name">NGƯỜI VỢ CUỐI CÙNG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/img/nam-dem-kinh-hoang.png" alt="Năm đêm kinh hoàng" class="img-fluid movie-img">
+                                <a href="#!" class="link">Xem chi tiết</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#!" class="name">NĂM ĐÊM KINH HOÀNG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/img/dat-rung-phuong-nam.png" alt="Đất rừng phương nam" class="img-fluid movie-img">
+                                <a href="#!" class="link">Xem chi tiết</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#!" class="name">ĐẤT RỪNG PHƯƠNG NAM</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/img/the-marvel.jpg" alt="The marvel" class="img-fluid movie-img">
+                                <a href="#!" class="link">Xem chi tiết</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#!" class="name">BIỆT ĐỘI MARVEL</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/img/vang-trang-mau.png" alt="Vầng trăng máu" class="img-fluid movie-img">
+                                <a href="#!" class="link">Xem chi tiết</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#!" class="name">VẦNG TRĂNG MÁU</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/img/thanh-pho-ngu-gat.png" alt="Thành phố ngủ gật" class="img-fluid movie-img">
+                                <a href="#!" class="link">Xem chi tiết</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#!" class="name">THÀNH PHỐ NGỦ GẬT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        var items = document.querySelectorAll('.carousel .carousel-item');
+        items.forEach((e) =>{
+            const slide = 4;
+            let next = e.nextElementSibling;
+            for(var i=0 ; i<slide ; i++){
+                if(!next){
+                    next=items[0]
+                }
+                let clonechild = next.cloneNode(true)
+                e.appendChild(clonechild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+    </script>
+</body>
+</html>

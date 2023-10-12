@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #93ff7d;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* COMMON */
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.content{
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    padding: 14px 10px 8px;
+    border-radius: 8px;
+    background: var(--primary-color);
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    color: #000000;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+/* =======Heading======== */
+/* .title {
+    font-size: 3.5rem;
+    margin-top: 10px;
+    color: #FFF;
+    
+}
+
+.sub-title{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    font-size: 2.5rem;
+    
+} */
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 20px 5px;
+    font-size: 3.5rem;
+    color: #FFF;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--primary-color);
+}
+.heading .title{
+    font-size: 3.5rem;
+}
+.heading .title::after{
+    content: "";
+    width: 2px;
+    height: 32px;
+    bottom: -10px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    margin: 0 10px;
+}
+
+/* .heading .sub-title::after {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--primary-color);
+    cursor: context-menu;
+} */
+/* =====List movie===== */
+.list-movie {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.movie-item {
+    width: 196px;
+    margin: 15px 30px;
+}
+
+.movie-image {
+    position: relative;
+}
+
+.movie-image img {
+    height: 260px;
+    width: 182px;
+}
+
+.movie-image:hover img {
+    border: solid 2px var(--primary-color);
+}
+
+.movie-image .rating {
+    width: 45px;
+    text-align: center;
+    position: absolute;
+    color: #FFF;
+    background-color: rgb(154, 212, 242);
+    font-size: 18px;
+    top: 6px;
+    left: 6px;
+    padding: 5px 5px 3px;
+}
+
+.movie-info {
+    text-align: left;
+    height: 95px;
+}
+
+.movie-name {
+    display: block;
+    font-weight: 900;
+    text-align: center;
+    margin: 5px auto;
+    height: 38px;
+    
+}
+
+.movie-name:hover {
+    text-decoration: underline;
+}
+
+.movie-desc {
+    color: #FFF;
+    margin: 0 0 4px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.buy-cta {
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px;
+    width: 170px;
+    height: 45px;
+    flex-shrink: 0;
+}
+.buy-cta .btn {
+    margin-left: auto;
+    width: 100%;
+    height: 40px;
+    margin-left: -5px;
+}
+
+/* =====Slide====== */
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media(max-width:768px){
+  .carousel-inner .carousel-item>div{
+    display: none;
+  }
+  .carousel-inner .carousel-item>div:first-child{
+    display: block;
+  }
+}
+
+.carousel{
+    margin-top: 30px;
+}
+
+.carousel-inner {
+    padding: 4px;
+
+}
+
+.card {
+    margin: 10px;
+    height: 435px;
+}
+.card-body .movie-img:hover{
+    background: black;
+    opacity: 75%;
+    transition: ease-in-out 0.2s;
+}
+.card-body .link{
+    display: none;
+    transition: ease-in-out 0.2s;
+}
+/* .card-body .movie-img:hover {
+    display: block;
+    transition: ease-in-out 0.2s;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+} */
+.card .card-footer {
+    display: block;
+    font-weight: 900;
+    text-align: center;
+    margin: 5px auto;
+    height: 38px;
+}
+
+.card-footer .name {
+    color: #000000;
+}
+
+/* .img-wrapper {
+    display: inline-block;
+    margin: auto;
+    align-items: flex-start;
+    max-width: 100%;
+    height: 12rem;
+} */
+
+/* .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+} */
