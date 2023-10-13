@@ -22,8 +22,12 @@
 }
 
 .footer-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.footer-customer-content {
+    font-size: 14px;
 }
 
 .footer-contact-content > a {
