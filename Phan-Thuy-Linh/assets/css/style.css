@@ -69,7 +69,8 @@ a {
     justify-content: center;
     margin: 20px 5px;
     font-size: 3.5rem;
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.19);
+    
     padding-bottom: 20px;
     border-bottom: 2px solid var(--primary-color);
 }
@@ -84,6 +85,20 @@ a {
     display: inline-block;
     background-color: var(--primary-color);
     margin: 0 10px;
+}
+.heading .sub-title{
+    color: rgba(255, 255, 255, 0.7);
+}
+.heading .sub-title:hover{
+    color: #FFF;
+    font-size: 3.6rem;
+}
+
+.on-air {
+    /* border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 5px; */
+    color: #FFF;
+    font-size: 3.6rem;
 }
 
 /* .heading .sub-title::after {
