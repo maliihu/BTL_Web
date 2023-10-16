@@ -78,7 +78,7 @@ body {
 .time-dropdown {
     height: 100%;
     margin-top: 0;
-    padding-top: 15px;
+
 }
 
 .time-dropdown-content {
@@ -118,8 +118,4 @@ body {
 
 .time-dropdown:hover .time-dropdown-content {
     display: block;
-}
-
-.lich-chieu{
-    margin-left: 5px;
 }
