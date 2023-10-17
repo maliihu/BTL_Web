@@ -27,7 +27,7 @@ a {
 
 .content{
     width: 1110px;
-    max-width: calc(100% - 48px);
+    max-width: calc(100% - 20px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -117,28 +117,25 @@ a {
 .list-movie {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 50px;
     flex-wrap: wrap;
 }
 
 .movie-item {
-    width: 196px;
-    margin: 15px 30px;
+    margin: 15px 15px;
+    flex-shrink: 1;
+    
 }
 
 .movie-image {
     position: relative;
-    height: 260px;
-    width: 182px;
+    /* height: 260px;
+    width: 182px; */
 }
 
 .movie-image img {
-    height: 260px;
-    width: 182px;
-}
-
-.movie-image:hover img {
-    border: solid 2px var(--primary-color);
+    zoom: 60%;
+    border: solid 3px var(--primary-color);
 }
 
 .movie-image .rating {
@@ -174,7 +171,7 @@ a {
 
 .movie-desc {
     color: #000000;
-    margin: 0 0 4px;
+    margin: 0 0 3px;
 }
 
 .bold {
@@ -184,10 +181,10 @@ a {
 .buy-cta {
     display: flex;
     justify-content: flex-end;
-    margin: 8px;
-    width: 170px;
-    height: 45px;
-    flex-shrink: 0;
+    margin: 0px;
+    /* width: 170px;
+    height: 45px; */
+    /* flex-shrink: 0; */
 }
 .buy-cta .btn {
     margin-left: auto;
@@ -195,7 +192,9 @@ a {
     height: 40px;
     margin-left: -5px;
 }
-
+.buy-cta i {
+    margin-right: 3px;
+}
 /* =====Slide====== */
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
