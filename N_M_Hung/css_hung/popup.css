@@ -1,61 +1,51 @@
+
 .popup{
-    width: 900px;
-    height: 500px;
-    background: rgb(211, 187, 187);
-    position: relative;
+    width: 1500px;
+    height: 700px;
+    background: #fcf8f7;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
-    padding: 0 30px 30px;
+    margin-top: 50px;
     color: #333;
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
 }
-.popup > h3{
-    text-transform: uppercase;
-    font-size: 25px;
-    text-align: left;
-    padding: 20px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+.popup-header{
+    background: #fff;
+    margin-top: 200px;
 }
-.popup > h3::after{
-    content: "";
-    background-color: rgb(4, 4, 4);
-    height: 0.1rem;
-    width: 100%;
+.popup-body-title{
+    margin-left: 300px;
+    margin-right: 300px;
+    background: #fff;
     display: flex;
-}
-.popup-body > h1{
-    font-size: 35px;
-    color: #03599d;
-    padding-bottom: 30px;
-}
-.popup-body > h1::after{
-    content: "";
-    background-color: rgb(240, 242, 243);
-    height: 0.1rem;
-    width: 100%;
-    display: flex;
-}
-.popup-table {
-    width: 100%;
-    border-collapse: collapse;
+    height: 300px;
 }
 
-.popup-table tr th, .popup-table td {
-    padding: 20px;
-    text-align: center;
-    vertical-align: middle; 
+.popup-body-title > img{
+    object-fit: contain;
+    width: 200px;
+    max-width: max-content;
+    height: 300px;
+    max-height: max-content;
 }
-.text-col-popup {
-    font-size: 20px;
+
+.popup-text{
+    margin-left: 50px;
 }
-.text-center{
-    width: 30%;
+
+.popup-text > h1{
+    text-align: left;
+    font-size: 30px;
+    color: #0d3347;
 }
-.text-center h3{
-    height: 20px;
+
+.popup-text > p{
+    text-align: left;
+    padding-right: 80px;
+    font-size: 18px;
 }
 td {
     background-color: #f4f4f4;
@@ -64,7 +54,7 @@ td {
     width: 20%;
     margin-top: 30px;
     padding: 10px 0;
-    background: #03599d;
+    background: #185b80;
     color: #fff;
     border: 0;
     outline: none;
@@ -73,6 +63,7 @@ td {
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
+    margin-left: 600px;
 }
 
 .open-popup{
