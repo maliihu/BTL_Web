@@ -12,10 +12,11 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Open Sans', sans-serif;
-    background-image: url("../img/bg.jpg");
+    /* background-image: url("../img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #FFF;
 }
 
 /* COMMON */
@@ -69,7 +70,8 @@ a {
     justify-content: center;
     margin: 20px 5px;
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, 0.19);
+    font-weight: bold;
+    /* color: rgba(255, 255, 255, 0.005); */
     padding-bottom: 20px;
     border-bottom: 2px solid var(--primary-color);
 }
@@ -86,15 +88,15 @@ a {
     margin: 0 10px;
 }
 .heading .sub-title{
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(0, 0, 0, 0.5);
 }
 .heading .sub-title:hover{
-    color: #FFF;
-    font-size: 3.6rem;
+    color: #000000;
+    /* font-size: 3.6rem; */
 }
 
 .on-air {
-    color: #FFF;
+    color: #000000;
     font-size: 3.6rem;
 }
 
@@ -126,6 +128,8 @@ a {
 
 .movie-image {
     position: relative;
+    height: 260px;
+    width: 182px;
 }
 
 .movie-image img {
@@ -156,6 +160,7 @@ a {
 
 .movie-name {
     display: block;
+    color: #000000;
     font-weight: 900;
     text-align: center;
     margin: 5px auto;
@@ -168,7 +173,7 @@ a {
 }
 
 .movie-desc {
-    color: #FFF;
+    color: #000000;
     margin: 0 0 4px;
 }
 
@@ -198,7 +203,7 @@ a {
   display: flex;
 }
 
-@media(max-width:768px){
+@media(max-width:576px){
   .carousel-inner .carousel-item>div{
     display: none;
   }
@@ -217,17 +222,33 @@ a {
 }
 
 .card {
-    margin: 10px;
-    height: 435px;
+    margin: 0 5px;
+    background-image: linear-gradient(black, var(--primary-color));
 }
-.card-body .movie-img:hover{
+.card-body{
+    position: relative;
+}
+.card-body:hover .movie-img{
     background: black;
     opacity: 75%;
     transition: ease-in-out 0.2s;
 }
 .card-body .link{
+    position: absolute;
     display: none;
+    text-align: center;
     transition: ease-in-out 0.2s;
+}
+.card-body:hover .link{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    transition: ease-in-out 0.2s;
+    border: 2px solid #FFF;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 10px;
 }
 /* .card-body .movie-img:hover {
     display: block;
@@ -241,7 +262,7 @@ a {
     display: block;
     font-weight: 900;
     text-align: center;
-    margin: 5px auto;
+    margin: 5px 0;
     height: 38px;
 }
 
