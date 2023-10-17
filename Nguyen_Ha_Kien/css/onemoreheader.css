@@ -9,14 +9,15 @@ body {
 } */
 
 .Header-top {
-    background-color: white;
-    color: #9d832c;
+    background-color: #f6f8fa;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.Header-top > p {
+.Header-top > a {
+    text-decoration: none;
+    color: #9d832c;
     margin: 0;
     font-size: 45px;
     font-family: 'LT Neo Rounded', sans-serif;
