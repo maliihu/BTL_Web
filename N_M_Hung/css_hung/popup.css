@@ -24,12 +24,15 @@
     height: 300px;
 }
 
+.popup-body-title{
+    border: 3px solid #0d3347;
+    border-radius: 10px;
+}
 .popup-body-title > img{
-    object-fit: contain;
+    border-radius: 10px;
     width: 200px;
     max-width: max-content;
-    height: 300px;
-    max-height: max-content;
+    height: 298px;
 }
 
 .popup-text{
@@ -40,6 +43,10 @@
     text-align: left;
     font-size: 30px;
     color: #0d3347;
+}
+.popup-text > h3{
+    font-size: 18px;
+    text-align: center;
 }
 
 .popup-text > p{
