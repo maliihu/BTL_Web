@@ -10,9 +10,42 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/font/stylesheet.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/onemoreheader.css">
+    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/footer.css">
     <!-- <link rel="stylesheet" href="./assets/css/responsive.css"> -->
 </head>
 <body>
+    <!-- =======Header======= -->
+    <div class="Header-top">
+        <a href="">HULIKITA CINEMA</a>
+        <i class="fa fa-user"></i>
+      </div>
+      <div class="Header-bot">
+        <div class="Header-bot-bar">
+          <div class="Header-bot-item">
+            <div class="time-dropdown">
+              LỊCH CHIẾU
+              <i class="fas fa-angle-down" style="margin-left: 5px"></i>
+              <div class="time-dropdown-content">
+                <p><a href="../Phan-Thuy-Linh/now-showing.html">PHIM ĐANG CHIẾU</a></p>
+                <p><a href="../Phan-Thuy-Linh/coming-soon.html">PHIM SẮP CHIẾU</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="Header-bot-item">
+            <a href="index.html">HỆ THỐNG RẠP</a>
+          </div>
+          <div class="Header-bot-item">
+            <a href="#">ƯU ĐÃI</a>
+          </div>
+          <div class="Header-bot-item">
+            <a href="#">GIỚI THIỆU</a>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- ========Content======= -->
     <div class="content">
         <div class="heading">
             <h2 class="title on-air">Phim Đang Chiếu</h2>
@@ -330,10 +363,59 @@
 
                 </div>
             </li>
-            
-            
+            <li class="movie-item">
+                <div class="col-md-3 col-12">
+                    <div class="movie-image">
+                        <a href="#!">  
+                            <img src="./assets/img/vong-nhi.webp" alt="Vong nhi">
+                        </a>
+                        <span class="rating">T16</span>
+                    </div>
+                    <div class="movie-info">
+                        <a href="#!" class="movie-name">VONG NHI</a>
+                        <ul>
+                            <li class="movie-desc"><span class="bold">Thể loại: </span>Kinh dị</li>
+                            <li class="movie-desc"><span class="bold">Thời lượng: </span>117 phút</li>
+                        </ul>
+                    </div>
+                    <div class="buy-cta">
+                        <a href="#!" class="btn"><i class="fa-solid fa-ticket" style="color: #000000;"></i>    Mua vé</a>
+                    </div> 
+
+                </div>
+            </li>
         </ul>
     </div>
+    <!-- =======Footer======== -->
+    <div class="footer">
+        <div class="footer-container">
+          <div class="footer-customer">
+            <p class="footer-title">Chăm sóc khách hàng</p>
+            <div class="footer-customer-content">
+              <p><b>Hotline:</b> 0335 666 539</p>
+              <p><b>Giờ làm việc:</b> 8h00 - 22h00 tất cả các ngày trong tuần</p>
+              <p><b>Email:</b> contact@cinema.com</p>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <p class="footer-title">Kết nối với chúng tôi</p>
+            <div class="footer-contact-content">
+              <a href="https://www.facebook.com/hakien.23072004" target="_blank"
+                ><img src="images/fb-icon.png" alt=""
+              /></a>
+              <a href="https://github.com/14nmh/BTL_Web" target="_blank"
+                ><img
+                  src="images/github-icon.png"
+                  alt=""
+                  style="border: 1px solid white"
+              /></a>
+              <a href="https://www.youtube.com/watch?v=xl0NMRAnqbA" target="_blank"
+                ><img src="images/yt-icon.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
