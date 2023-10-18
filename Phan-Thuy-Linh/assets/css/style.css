@@ -172,6 +172,10 @@ a {
 .carousel{
     margin-top: 30px;
 }
+.carousel-item {
+    transition: transform .1s ease-in-out;
+    
+}
 
 .carousel-inner {
     padding: 4px;
@@ -180,10 +184,12 @@ a {
 .card {
     margin: 0 5px;
     background-image: linear-gradient(black, var(--primary-color));
+    
 }
 .card-body{
     position: relative;
 }
+
 .card-body:hover .movie-img{
     background: black;
     opacity: 75%;
@@ -274,7 +280,7 @@ a {
 /* Tablet */
 @media screen and (max-width: 1010px) {
     .movie-item img {
-        zoom: 70%;
+        zoom: 65%;
       }
       .heading{
         display: flex;
