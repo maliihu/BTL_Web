@@ -145,9 +145,13 @@ li{
     list-style-type: none;
     padding-top: 10px;
     font-size: 18px;
-    margin-left: -31px;
 }
 
+.button-part{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -20px;
+}
 .button_content {
     height: 43px;
     font-size: 14px;
@@ -159,9 +163,8 @@ li{
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 10px;
-    margin-bottom: 50px;
     border: none;
-    margin-top: 20px;
+    margin-right: 50px;
 }
 i{
     size: 10px;
