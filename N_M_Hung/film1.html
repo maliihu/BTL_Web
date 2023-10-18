@@ -57,12 +57,11 @@
   <!-- phần thân web -->
   <div class="body_main_content">
 
-    <div class="film_title_top">
       <div class="film_title_main">
-        <h1><a href="">Trang chủ |</a></h1>
+        <h1><a href="">Trang chủ </a></h1>
+        <span>></span>
         <h1>GIAO LỘ 8675</h1>
       </div>
-    </div>
 
     <div class="page_content">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -77,7 +76,7 @@
           Xoay quanh những người trẻ và hành trình họ đi tìm kiếm ý nghĩa cuộc
           sống, điều khó khăn trong xã hội hiện đại như hiện nay. Dù các nhân
           vật xuất hiện tại những bối cảnh khác nhau, tất cả đều đang đứng
-          trước những "ngọn núi" phải chinh phục của chính mình
+          trước những "ngọn núi" phải chinh phục của chính mình.
         </p>
         <div class="row-mota">
           <div class="div-mtd col-lg-4 col-md-4 col-sm-4 col-xs-14">
@@ -148,29 +147,30 @@
         <div class="button-part">
           <a href="#trailer-vid-film"><button class="button_content">trailer</button></a>
           <div class="container-popup">
-            
             <button class="button_content" type="submit" class="btn" onclick="openPopup()">
               <i class="fa-sharp fa-solid fa-ticket fa-fade"></i>mua vé ngay
             </button>
             <div class="popup" id="popup">
-              
+              <button type="button" onclick="closePopup()"><i class="fa fa-close"></i></button>
               <div class="popup-header">
               </div>
               <div class="popup-body">
                 <div class="popup-body-title">
-                  <img class="popup-img-film" src="images/1.png" alt="ảnh"> 
+                  <img class="popup-img-film" src="images/1.png" alt="ảnh">
                   <div class="popup-text">
                     <h1>Giao Lộ 8675</h1>
                     <h3>Hành Động - 110 phút</h3>
-                    <p>Xoay quanh những người trẻ và hành trình họ đi tìm kiếm ý nghĩa cuộc sống, điều khó khăn trong xã hội hiện đại như hiện nay. Dù các nhân vật xuất hiện tại những bối cảnh khác nhau, tất cả đều đang đứng trước những "ngọn núi" phải chinh phục của chính mình</p>
+                    <p>Xoay quanh những người trẻ và hành trình họ đi tìm kiếm ý nghĩa cuộc sống, điều khó khăn trong xã
+                      hội hiện đại như hiện nay. Dù các nhân vật xuất hiện tại những bối cảnh khác nhau, tất cả đều đang
+                      đứng trước những "ngọn núi" phải chinh phục của chính mình.</p>
                   </div>
                 </div>
               </div>
               <div class="popup-bot">
-                <a href="ticket-booking.html" >
-                  <button>Chọn Ghế</button></a>
+                <a href="ticket-booking.html">
+                  <button class="pick-seat">Chọn Ghế</button></a>
               </div>
-              <button type="button" onclick="closePopup()">đồng ý</button>
+
             </div>
           </div>
         </div>

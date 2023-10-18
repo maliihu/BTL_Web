@@ -93,15 +93,20 @@ body {
 .film_title_main h1{
     display: inline;
     font-size: 26px;
-
+    color: #03599d;
 }
-.film_title_main h1 a{
+.film_title_main h1 a {
     text-decoration: none;
     font-size: 26px;
+    color: #000000;
+}
+.film_title_main > span{
+    font-size: 22px;
+    color: black;
 }
 .banner-film{
-    width: 360px;
-    height: 500px;
+    width: 350px;
+    height: 480px;
     border-radius: 8%;
 }
 .page_content{
