@@ -12,7 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/he_thong_rap.css" />
     <link rel="stylesheet" href="css/onemoreheader.css" />
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css" />
 
     <!-- Font + Icon -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,38 +33,58 @@
   </head>
   <body>
     <!-- <div class="Header"> -->
-      <div class="Header-top">
-        <a href="../index.html">HULIKITA CINEMA</a>
-        <i class="fa fa-user"></i>
-      </div>
-      <div class="Header-bot">
-        <div class="Header-bot-bar">
-          <div class="Header-bot-item">
-            <div class="time-dropdown">
-              LỊCH CHIẾU
-              <i class="fas fa-angle-down" style="margin-left: 5px"></i>
-              <div class="time-dropdown-content">
-                <p><a href="../Phan-Thuy-Linh/now-showing.html">PHIM ĐANG CHIẾU</a></p>
-                <p><a href="../Phan-Thuy-Linh/coming-soon.html">PHIM SẮP CHIẾU</a></p>
-              </div>
+    <div class="Header-top">
+      <a href="../index.html">HULIKITA CINEMA</a>
+    </div>
+    <div class="Header-bot">
+      <div class="Header-bot-bar">
+        <div class="Header-bot-item">
+          <div class="time-dropdown">
+            LỊCH CHIẾU
+            <i class="fas fa-angle-down" style="margin-left: 5px"></i>
+            <div class="time-dropdown-content">
+              <p>
+                <a href="../Phan-Thuy-Linh/now-showing.html">PHIM ĐANG CHIẾU</a>
+              </p>
+              <p>
+                <a href="../Phan-Thuy-Linh/coming-soon.html">PHIM SẮP CHIẾU</a>
+              </p>
             </div>
           </div>
-          <div class="Header-bot-item">
-            <a href="index.html">HỆ THỐNG RẠP</a>
-          </div>
-          <div class="Header-bot-item">
-            <a href="#">ƯU ĐÃI</a>
-          </div>
-          <div class="Header-bot-item">
-            <a href="#">GIỚI THIỆU</a>
-          </div>
+        </div>
+        <div class="Header-bot-item">
+          <a href="index.html">HỆ THỐNG RẠP</a>
+        </div>
+        <div class="Header-bot-item">
+          <a href="#">ƯU ĐÃI</a>
+        </div>
+        <div class="Header-bot-item">
+          <a href="#">GIỚI THIỆU</a>
+        </div>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li>
+              <a href="../Phan-Thuy-Linh/now-showing.html">PHIM ĐANG CHIẾU</a>
+            </li>
+            <li>
+              <a href="../Phan-Thuy-Linh/coming-soon.html">PHIM SẮP CHIẾU</a>
+            </li>
+            <li><a href="index.html">HỆ THỐNG RẠP</a></li>
+            <li><a href="#">ƯU ĐÃI</a></li>
+            <li><a href="#">GIỚI THIỆU</a></li>
+          </ul>
         </div>
       </div>
+    </div>
+
     <!-- </div> -->
     <h1 class="title">HỆ THỐNG RẠP</h1>
     <div class="card_list">
       <div class="row">
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_1.html">
             <img src="images/rap1.jpg" alt="" />
           </a>
@@ -72,7 +92,7 @@
             <a class="card_title" href="rap_1.html">Rap phim 1</a>
           </div>
         </div>
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_2.html">
             <img src="images/rap2.jpg" alt="" />
           </a>
@@ -80,7 +100,7 @@
             <a class="card_title" href="rap_2.html">Rap phim 2</a>
           </div>
         </div>
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_3.html">
             <img src="images/rap3.jpg" alt="" />
           </a>
@@ -88,7 +108,7 @@
             <a class="card_title" href="rap_3.html">Rap phim 3</a>
           </div>
         </div>
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_4.html">
             <img src="images/rap4.jpg" alt="" />
           </a>
@@ -96,9 +116,7 @@
             <a class="card_title" href="rap_4.html">Rap phim 4</a>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_5.html">
             <img src="images/rap5.webp" alt="" />
           </a>
@@ -106,7 +124,7 @@
             <a class="card_title" href="rap_5.html">Rap phim 5</a>
           </div>
         </div>
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_6.html">
             <img src="images/rap6.jpg" alt="" />
           </a>
@@ -114,7 +132,7 @@
             <a class="card_title" href="rap_6.html">Rap phim 6</a>
           </div>
         </div>
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_7.html">
             <img src="images/rap7.jpg" alt="" />
           </a>
@@ -122,7 +140,7 @@
             <a class="card_title" href="rap_7.html">Rap phim 7</a>
           </div>
         </div>
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_8.html">
             <img src="images/rap8.webp" alt="" />
           </a>
@@ -130,9 +148,7 @@
             <a class="card_title" href="rap_8.html">Rap phim 8</a>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_9.html">
             <img src="images/rap9.jpg" alt="" />
           </a>
@@ -140,7 +156,7 @@
             <a class="card_title" href="rap_9.html">Rap phim 9</a>
           </div>
         </div>
-        <div class="col-lg-3 cards">
+        <div class="col-xl-3 col-lg-4 col-sm-6 cards">
           <a class="card_image" href="rap_10.html">
             <img src="images/rap10.jpg" alt="" />
           </a>
@@ -179,5 +195,6 @@
         </div>
       </div>
     </div>
+    <script src="js/mobilemenu.js"></script>
   </body>
 </html>

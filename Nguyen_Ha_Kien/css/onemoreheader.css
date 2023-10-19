@@ -178,11 +178,16 @@ body {
     color: white;
 }
 
+@media only screen and (max-width: 1280px){
+    .Header-bot-bar {
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 991px){
     .Header-bot-bar {
         width: 100%;
     }
-    
 }
 
 @media only screen and (max-width: 650px){
