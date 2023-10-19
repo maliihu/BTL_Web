@@ -1,5 +1,4 @@
 body{
-    background-image: url(img/anhnen.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -19,11 +18,19 @@ body{
     justify-content: center;
     /* Căn giữa theo chiều ngang */
     align-items: center;
+    margin-top: 200px;
 }
 
+.product a{
+    text-decoration: none;
+    color: #0d3347;
+}
 .product span {
-    padding: 25px 25px 25px 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
     font-size: 30px;
+    color: black;
 }
 
 .col-sm-3 {
@@ -32,7 +39,7 @@ body{
     flex: 1;
     margin: 5px;
     min-width: 250px;
-    background-color: #172029;
+    background-color: #0d3347;
     
 
 } 
@@ -57,7 +64,7 @@ body{
 @media (max-width: 768px) {
     .column {
     min-width: 100%;
-}
+}}
 
 /* .content-product{
     display: flex;
