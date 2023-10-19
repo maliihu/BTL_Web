@@ -99,7 +99,8 @@ li{
     border: none;
     margin-right: 20px;
 }
-i{
+.fa-close {
+    color: white;
     size: 10px;
     margin-right: 11px;
     text-align: center;
