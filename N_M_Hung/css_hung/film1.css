@@ -1,90 +1,10 @@
- /* sửa phần header */
-body {
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-}
-.Header {
-    z-index: 100;
-    position: sticky; top: 0;
-}
-.Header-top {
-    background-color: white;
-    color: #9d832c;
-    text-align: center;
-    padding-top: 15px;
-}
-.Header-top > p {
-    margin: 0;
-    font-size: 40px;
-    font-family: 'LT Neo Rounded', sans-serif;
-    letter-spacing: 5px;
-}
-.fa-user {
-    position: absolute;
-    right: 300px;
-    top: 30px;
-    font-size: 20px;
-}
-.fas fa-angle-down{
-    margin-left: 5px
-}
-.Header-bot {
-    color: white;
-    background-color: #0d3347;
-}
-.Header-bot-bar {
-    display: flex;
-    width: 50%;
-    margin: 0 auto;
-    height: 50px;
-}
-.Header-bot-item {
-    flex-wrap: nowrap;
-    width: 25%;
-    text-align: center;
-}
-.Header-bot-item > div {
-    margin-top: 15px;
-}
-.Header-bot-item > a {
-    text-decoration: none;
-    display: inline-block;
-    padding-top: 15px;
-    color: white;
-    height: 80%;
-    width: 90%;
-}
-.time-dropdown {
-    height: 100%;
-}
-.time-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #9d832c;
-    color: white;
-    font-size: 13px;
-    width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 0 0 10px 10px;
-    margin-left: 30px;
-    margin-top: 11px;
-    padding: 12px 16px;
-    z-index: 1;
-    text-align: left;
-    border-radius: 5px;
-}
-.time-dropdown-content > p > a{
-    text-decoration: none;
-    color: white;
-}
-.time-dropdown:hover .time-dropdown-content {
-    display: block;
-}
-
 
 /* sửa phần main, nội dung */
+.body_main_content{
+    width: 70%;
+    margin: 0 auto;
+}
 .film_title_main{
-    margin-left: 180px;
     display: inline-block;   
     margin-top: 40px;
     font-size: 10px;
@@ -92,7 +12,7 @@ body {
 }
 .film_title_main h1{
     display: inline;
-    font-size: 26px;
+    font-size: 24px;
     color: #03599d;
 }
 .film_title_main h1 a {
@@ -104,14 +24,16 @@ body {
     font-size: 22px;
     color: black;
 }
+.picture_banner{
+    height: 410px;
+    width: 260px;
+}
 .banner-film{
-    width: 350px;
-    height: 480px;
-    border-radius: 8%;
+    height: 410px;
+    width: 260px;
+    border-radius: 10px;
 }
-.page_content{
-    margin-left: 150px;
-}
+
 
 @media only screen and (max-width: 768px) {
     .page_content{
@@ -119,32 +41,38 @@ body {
     }
 }
 
+.page_content{
+    display: flex;
+}
 .page_content .picture_banner{
     float: left;
-}
-.page_content .content_main{
-    padding-top: 10px;
-    margin-left: 420px;
 }
 .div-mtd{
     display: flex;
     font-size: 20px;
 }
 .title-film{
-    font-size: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.content_main{
+    margin-left: 50px;
 }
 .text-film{
-    font-size: 20px;
-    height: 100px;
-    width: 800px;
+    font-size: 18px;
     text-align: justify;
     padding-top: 5px;
 }
-.row-mota{
-    padding-top: 6px;
+.row{
+    width: 100%;
+    padding-top: 5px;
 }
 .col-left{
     font-weight: bold; 
+    font-size: 18px;
+}
+.col-right{
+    font-size: 18px;
 }
 li{
     list-style-type: none;
@@ -169,7 +97,7 @@ li{
     text-transform: uppercase;
     border-radius: 10px;
     border: none;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 i{
     size: 10px;
@@ -219,7 +147,7 @@ button:hover{
 /* sửa phần trailer */
 .trailer_container{
     background-color: #3c3e4d;
-    margin-top: 300px;
+    margin-top: 200px;
     height: 800px;
     margin-bottom: 200px;
 }
