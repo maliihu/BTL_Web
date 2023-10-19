@@ -76,20 +76,18 @@ body {
 
 .time-dropdown-content {
     display: none;
-    position: absolute;
     background-color: #9d832c;
     color: white;
     font-size: 13px;
     width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 0 0 10px 10px;
-    margin-left: 30px;
+    margin: 0 auto;
     margin-top: 11px;
     padding: 12px 16px;
     z-index: 1;
     text-align: left;
     border-radius: 5px;
-    left: 370px;
     animation: fadeIn 0.5s ease-in-out;
 }
 
@@ -178,7 +176,7 @@ body {
     color: white;
 }
 
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 1290px){
     .Header-bot-bar {
         width: 80%;
     }
