@@ -1,0 +1,178 @@
+
+/* sửa phần main, nội dung */
+.body_main_content{
+    width: 70%;
+    margin: 0 auto;
+}
+.film_title_main{
+    display: inline-block;   
+    margin-top: 40px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.film_title_main h1{
+    display: inline;
+    font-size: 24px;
+    color: #03599d;
+}
+.film_title_main h1 a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #000000;
+}
+.film_title_main > span{
+    font-size: 22px;
+    color: black;
+}
+.picture_banner{
+    height: 410px;
+    width: 260px;
+}
+.banner-film{
+    height: 410px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .page_content{
+        margin-left: 100px;
+    }
+}
+
+.page_content{
+    display: flex;
+}
+.page_content .picture_banner{
+    float: left;
+}
+.div-mtd{
+    display: flex;
+    font-size: 20px;
+}
+.title-film{
+    font-size: 28px;
+    font-weight: bold;
+}
+.content_main{
+    margin-left: 50px;
+}
+.text-film{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 5px;
+}
+.row{
+    width: 100%;
+    padding-top: 5px;
+}
+.col-left{
+    font-weight: bold; 
+    font-size: 18px;
+}
+.col-right{
+    font-size: 18px;
+}
+li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.button-part{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.button_content {
+    height: 43px;
+    font-size: 14px;
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #0d3347;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+}
+.fa-close {
+    color: white;
+    size: 10px;
+    margin-right: 11px;
+    text-align: center;
+    transform: skew(deg);
+}
+button:hover{
+    background-image: linear-gradient(white, white);
+    color: #0d3347;
+}
+
+/* sửa phần mua vé */
+#datve{
+    margin-top: 100px;
+}
+.text-datve{
+    text-align: center;
+    text-transform: uppercase;
+}
+#datve .text-datve::after{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    height: 0.2rem;
+    display: flex;
+}
+.nav-item{
+    margin-right: 30px;
+    margin-left: 100px;
+}
+.container-mt-3{
+    height: 300px;
+}
+.nav-item a{
+    color: black;
+    font-size: 20px;  
+}
+.time-ticket{
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    border: 2px solid white;
+    height: 30px;
+    width: 100px;
+}
+
+/* sửa phần trailer */
+.trailer_container{
+    background-color: #3c3e4d;
+    margin-top: 200px;
+    height: 800px;
+    margin-bottom: 200px;
+}
+.trailer_container h1{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
+.trailer_title_film{
+    margin-bottom: 30px;
+}
+.video_wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.video_trailer_vid { 
+    border: #fff solid 2px;
+    width: 800px;
+    height: 500px;
+    margin-left: 0px auto;
+}
+

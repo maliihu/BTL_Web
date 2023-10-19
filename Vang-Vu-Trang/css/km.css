@@ -1,9 +1,6 @@
 body{
-    background-image: url(img/anhnen.jpg);
-    background-size: cover;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #fff;
+    color: black;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -14,7 +11,7 @@ body{
 }
 
 .product{
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     /* Căn giữa theo chiều ngang */
@@ -32,9 +29,8 @@ body{
     flex: 1;
     margin: 5px;
     min-width: 250px;
-    background-color: #172029;
-    
-
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 } 
 
 .img {
@@ -44,10 +40,8 @@ body{
     display: block;
 }
 
-
-
 .card_footer{
-    color: #fff;
+    color: black;
     size: 130px;
     font-weight: 600;
     padding: 14px 30px 13px 17px;
