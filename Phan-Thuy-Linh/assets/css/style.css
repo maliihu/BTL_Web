@@ -51,15 +51,20 @@ a {
     opacity: 0.9;
 }
 /* =======Heading======== */
-.title {
-    font-family: 'Dosis';
+/* .title {
+    font-size: 3.5rem;
+    margin-top: 10px;
+    color: #FFF;
     
 }
 
 .sub-title{
-    font-family: 'Dosis';
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    font-size: 2.5rem;
     
-}
+} */
 
 
 /* .heading .sub-title::after {
@@ -90,13 +95,14 @@ a {
 
 .movie-image {
     position: relative;
-    /* height: 300px;
-    width: 500px;  */
+    /* height: 260px;
+    width: 182px; */
 }
 
-.movie-image img:hover {
-    
-}
+/* .movie-image img {
+    zoom: 60%;
+    border: solid 3px var(--primary-color);
+} */
 
 .movie-image .rating {
     width: 45px;
