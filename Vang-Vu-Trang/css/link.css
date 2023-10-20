@@ -26,7 +26,7 @@ body {
 
 .container {
     display: flex; 
-    height: 100vh;
+    height: 100%;
     padding: 21px 200px 127px 0; 
 }
 
@@ -41,7 +41,7 @@ span.left{
 
 .right {
     flex: 1;
-    padding: 150px;
+    padding: 20px;
 }
 
 .img-right {

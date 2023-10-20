@@ -71,21 +71,15 @@
     font-weight: bold; 
     font-size: 18px;
 }
+
 .col-right{
-    font-size: 18px;
-}
-li{
-    list-style-type: none;
-    padding-top: 10px;
     font-size: 18px;
 }
 
 .button-part{
     display: flex;
-    margin-top: 20px;
-    margin-left: -20px;
 }
-.button_content {
+.button-content {
     height: 43px;
     font-size: 14px;
     width: 180px;
@@ -94,56 +88,57 @@ li{
     font-size: 1rem;
     background-color: #0d3347;
     cursor: pointer;
-    text-transform: uppercase;
     border-radius: 10px;
     border: none;
     margin-right: 20px;
+    margin-top: 15px;
 }
-.fa-close {
+.mt-3 > button{
+    height: 43px;
+    font-size: 14px;
+    width: 180px;
     color: white;
-    size: 10px;
-    margin-right: 11px;
-    text-align: center;
-    transform: skew(deg);
+    font-weight: bold;
+    background-color: #0d3347;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.mt-3 > button:hover{
+    background-image: linear-gradient(white, white);
+    color: #0d3347;
+}
+.modal{
+    > .modal-dialog{
+        > .modal-content{
+            .modal-body{
+                font-weight: bold;
+                font-size: 24px;
+                text-align: center;
+                color: #337ab7;
+                margin: 0 auto;
+            }
+            .modal-footer{
+                > a{margin: 0 auto; 
+                    > button{
+                        background-color: #337ab7;
+                        color: white;
+                        height: 40px;
+                        width: 120px;
+                        border-radius: 10px;
+                        border: none;
+                    }
+                    
+                }
+            }
+        }
+    }
 }
 button:hover{
     background-image: linear-gradient(white, white);
     color: #0d3347;
 }
 
-/* sửa phần mua vé */
-#datve{
-    margin-top: 100px;
-}
-.text-datve{
-    text-align: center;
-    text-transform: uppercase;
-}
-#datve .text-datve::after{
-    content: "";
-    background-color: rgb(0, 0, 0);
-    height: 0.2rem;
-    display: flex;
-}
-.nav-item{
-    margin-right: 30px;
-    margin-left: 100px;
-}
-.container-mt-3{
-    height: 300px;
-}
-.nav-item a{
-    color: black;
-    font-size: 20px;  
-}
-.time-ticket{
-    margin-right: 100px;
-    margin-bottom: 50px;
-    text-decoration: none;
-    border: 2px solid white;
-    height: 30px;
-    width: 100px;
-}
 
 /* sửa phần trailer */
 .trailer_container{
@@ -162,7 +157,7 @@ button:hover{
     padding-top: 80px;
 }
 .trailer_title_film{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .video_wrapper {
     margin: 0 auto;
