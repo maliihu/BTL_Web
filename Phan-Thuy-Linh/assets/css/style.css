@@ -51,20 +51,15 @@ a {
     opacity: 0.9;
 }
 /* =======Heading======== */
-/* .title {
-    font-size: 3.5rem;
-    margin-top: 10px;
-    color: #FFF;
+.title {
+    font-family: 'Dosis';
     
 }
 
 .sub-title{
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    font-size: 2.5rem;
+    font-family: 'Dosis';
     
-} */
+}
 
 
 /* .heading .sub-title::after {
@@ -99,10 +94,9 @@ a {
     width: 500px;  */
 }
 
-/* .movie-image img {
-    zoom: 60%;
-    border: solid 3px var(--primary-color);
-} */
+.movie-image img:hover {
+    
+}
 
 .movie-image .rating {
     width: 45px;
