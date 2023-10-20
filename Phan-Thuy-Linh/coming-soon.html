@@ -1,281 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/font/stylesheet.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/onemoreheader.css">
-    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font + Icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300;400;500&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+    <link rel="stylesheet" href="./assets/font/stylesheet.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/onemoreheader.css"/>
+    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/footer.css"/>
     <title>Phim sắp chiếu</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- ======Header======= -->
     <div class="Header-top">
-        <a href="">HULIKITA CINEMA</a>
-      </div>
-      <div class="Header-bot">
-        <div class="Header-bot-bar">
-          <div class="Header-bot-item">
-            <div class="time-dropdown">
-              LỊCH CHIẾU
-              <i class="fas fa-angle-down" style="margin-left: 5px"></i>
-              <div class="time-dropdown-content">
-                <p><a href="../Phan-Thuy-Linh/now-showing.html">PHIM ĐANG CHIẾU</a></p>
-                <p><a href="../Phan-Thuy-Linh/coming-soon.html">PHIM SẮP CHIẾU</a></p>
-              </div>
+      <a href="index.html">HULIKITA CINEMA</a>
+    </div>
+    <div class="Header-bot">
+      <div class="Header-bot-bar">
+        <div class="Header-bot-item">
+          <div class="time-dropdown">
+            LỊCH CHIẾU
+            <i class="fas fa-angle-down" style="margin-left: 5px"></i>
+            <div class="time-dropdown-content">
+              <p>
+                <a href="./Phan-Thuy-Linh/now-showing.html">PHIM ĐANG CHIẾU</a>
+              </p>
+              <p>
+                <a href="./Phan-Thuy-Linh/coming-soon.html">PHIM SẮP CHIẾU</a>
+              </p>
             </div>
           </div>
-          <div class="Header-bot-item">
-            <a href="index.html">HỆ THỐNG RẠP</a>
-          </div>
-          <div class="Header-bot-item">
-            <a href="#">ƯU ĐÃI</a>
-          </div>
-          <div class="Header-bot-item">
-            <a href="#">GIỚI THIỆU</a>
-          </div>
-          <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu">
-              <li><a href="#">PHIM ĐANG CHIẾU</a></li>
-              <li><a href="#">PHIM SẮP CHIẾU</a></li>
-              <li><a href="#">HỆ THỐNG RẠP</a></li>
-              <li><a href="#">ƯU ĐÃI</a></li>
-              <li><a href="#">GIỚI THIỆU</a></li>
-            </ul>
-          </div>
+        </div>
+        <div class="Header-bot-item">
+          <a href="Nguyen_Ha_Kien/index.html">HỆ THỐNG RẠP</a>
+        </div>
+        <div class="Header-bot-item">
+          <a href="#">ƯU ĐÃI</a>
+        </div>
+        <div class="Header-bot-item">
+          <a href="#">GIỚI THIỆU</a>
+        </div>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li>
+              <a href="../Phan-Thuy-Linh/now-showing.html">PHIM ĐANG CHIẾU</a>
+            </li>
+            <li>
+              <a href="../Phan-Thuy-Linh/coming-soon.html">PHIM SẮP CHIẾU</a>
+            </li>
+            <li><a href="index.html">HỆ THỐNG RẠP</a></li>
+            <li><a href="#">ƯU ĐÃI</a></li>
+            <li><a href="#">GIỚI THIỆU</a></li>
+          </ul>
         </div>
       </div>
+    </div>
 
     <!-- =======Content======= -->
     <div class="content">
-        <div class="heading">
-            <h2><a href="./now-showing.html" class="title off-air">Phim Đang Chiếu</a></h2>
-            <h2 class="sub-title on-air">Phim Sắp Chiếu</h2>
-        </div>
+      <div class="heading">
+        <h2>
+          <a href="./now-showing.html" class="title off-air">Phim Đang Chiếu</a>
+        </h2>
+        <h2 class="sub-title on-air">Phim Sắp Chiếu</h2>
+      </div>
 
-        <div class="carousel" data-bs-ride="carousel" id="carouselExample">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/nha-vit-di-cu.webp" alt="Nhà vịt di cư" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">NHÀ VỊT DI CƯ</a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="carousel" data-bs-ride="carousel" id="carouselExample">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/nha-vit-di-cu.webp"
+                    alt="Nhà vịt di cư"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
                 </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/nguoi-vo-cuoi-cung.webp" alt="Người vợ cuối cùng" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">NGƯỜI VỢ CUỐI CÙNG</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">NHÀ VỊT DI CƯ</a>
                 </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/gia-dinh-quai-vat.webp" alt="Gia đình quái vật" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">GIA ĐÌNH QUÁI VẬT</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/nam-dem-kinh-hoang.webp" alt="Năm đêm kinh hoàng" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">NĂM ĐÊM KINH HOÀNG</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/am-hon-do-thi.webp" alt="Âm hồn đô thị" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">ÂM HỒN ĐÔ THỊ</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/trolls.webp" alt="Trolls" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">TROLLS:<br>ĐỒNG TÂM HIỆP NHẠC</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/taylor.webp" alt="The Eras Tour" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">TAYLOR SWIFT:<br>THE ERAS TOUR</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/nguoi-mat-troi.webp" alt="Người mặt trời" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">NGƯỜI MẶT TRỜI</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/my-nhan-dao-chich.webp" alt="Mỹ nhân đạo chích" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">MỸ NHÂN ĐẠO CHÍCH</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/biet-doi-marvel.webp" alt="The marvel" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">BIỆT ĐỘI MARVEL</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/vang-trang-mau.webp" alt="Vầng trăng máu" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">VẦNG TRĂNG MÁU</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/img/wish.webp" alt="Điều ước" class="img-fluid movie-img">
-                                <a href="#!" class="link">Xem chi tiết</a>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#!" class="name">ĐIỀU ƯỚC</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/nguoi-vo-cuoi-cung.webp"
+                    alt="Người vợ cuối cùng"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">NGƯỜI VỢ CUỐI CÙNG</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/gia-dinh-quai-vat.webp"
+                    alt="Gia đình quái vật"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">GIA ĐÌNH QUÁI VẬT</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/nam-dem-kinh-hoang.webp"
+                    alt="Năm đêm kinh hoàng"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">NĂM ĐÊM KINH HOÀNG</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/am-hon-do-thi.webp"
+                    alt="Âm hồn đô thị"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">ÂM HỒN ĐÔ THỊ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/trolls.webp"
+                    alt="Trolls"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">TROLLS:<br />ĐỒNG TÂM HIỆP NHẠC</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/taylor.webp"
+                    alt="The Eras Tour"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">TAYLOR SWIFT:<br />THE ERAS TOUR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/nguoi-mat-troi.webp"
+                    alt="Người mặt trời"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">NGƯỜI MẶT TRỜI</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/my-nhan-dao-chich.webp"
+                    alt="Mỹ nhân đạo chích"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">MỸ NHÂN ĐẠO CHÍCH</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/biet-doi-marvel.webp"
+                    alt="The marvel"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">BIỆT ĐỘI MARVEL</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/vang-trang-mau.webp"
+                    alt="Vầng trăng máu"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">VẦNG TRĂNG MÁU</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3 col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./assets/img/wish.webp"
+                    alt="Điều ước"
+                    class="img-fluid movie-img"
+                  />
+                  <a href="#!" class="link">Xem chi tiết</a>
+                </div>
+                <div class="card-footer">
+                  <a href="#!" class="name">ĐIỀU ƯỚC</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
     <!-- =======Footer======= -->
     <div class="footer">
-        <div class="footer-container">
-          <div class="footer-customer">
-            <p class="footer-title">Chăm sóc khách hàng</p>
-            <div class="footer-customer-content">
-              <p><b>Hotline:</b> 0335 666 539</p>
-              <p><b>Giờ làm việc:</b> 8h00 - 22h00 tất cả các ngày trong tuần</p>
-              <p><b>Email:</b> contact@cinema.com</p>
-            </div>
+      <div class="footer-container">
+        <div class="footer-customer">
+          <p class="footer-title">Chăm sóc khách hàng</p>
+          <div class="footer-customer-content">
+            <p><b>Hotline:</b> 0335 666 539</p>
+            <p><b>Giờ làm việc:</b> 8h00 - 22h00 tất cả các ngày trong tuần</p>
+            <p><b>Email:</b> contact@cinema.com</p>
           </div>
-          <div class="footer-contact">
-            <p class="footer-title">Kết nối với chúng tôi</p>
-            <div class="footer-contact-content">
-              <a href="https://www.facebook.com/hakien.23072004" target="_blank"
-                ><img src="images/fb-icon.png" alt=""
-              /></a>
-              <a href="https://github.com/14nmh/BTL_Web" target="_blank"
-                ><img
-                  src="images/github-icon.png"
-                  alt=""
-                  style="border: 1px solid white"
-              /></a>
-              <a href="https://www.youtube.com/watch?v=xl0NMRAnqbA" target="_blank"
-                ><img src="images/yt-icon.png" alt=""
-              /></a>
-            </div>
+        </div>
+        <div class="footer-contact">
+          <p class="footer-title">Kết nối với chúng tôi</p>
+          <div class="footer-contact-content">
+            <a href="https://www.facebook.com/hakien.23072004"
+              ><img src="../Nguyen_Ha_Kien/images/fb-icon.png" alt=""
+            /></a>
+            <a href="https://github.com/14nmh/BTL_Web"
+              ><img
+                src="../Nguyen_Ha_Kien/images/github-icon.png"
+                alt=""
+                style="border: 1px solid white"
+            /></a>
+            <a href="https://www.youtube.com/watch?v=xl0NMRAnqbA"
+              ><img src="../Nguyen_Ha_Kien/images/yt-icon.png" alt=""
+            /></a>
           </div>
         </div>
       </div>
+    </div>
     <!-- ======Javascripts======= -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        var items = document.querySelectorAll('.carousel .carousel-item');
-        items.forEach((e) =>{
-            const slide = 4;
-            let next = e.nextElementSibling;
-            for(var i=0 ; i<slide ; i++){
-                if(!next){
-                    next=items[0]
-                }
-                let clonechild = next.cloneNode(true)
-                e.appendChild(clonechild.children[0])
-                next = next.nextElementSibling
-            }
-        })
+      var items = document.querySelectorAll(".carousel .carousel-item");
+      items.forEach((e) => {
+        const slide = 4;
+        let next = e.nextElementSibling;
+        for (var i = 0; i < slide; i++) {
+          if (!next) {
+            next = items[0];
+          }
+          let clonechild = next.cloneNode(true);
+          e.appendChild(clonechild.children[0]);
+          next = next.nextElementSibling;
+        }
+      });
     </script>
-    <script src="/BTL_Web/Nguyen_Ha_Kien/js/mobilemenu.js"></script>
-</body>
+    <script src="../Nguyen_Ha_Kien/js/mobilemenu.js"></script>
+  </body>
 </html>
