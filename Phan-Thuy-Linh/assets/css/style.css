@@ -5,6 +5,19 @@
     --primary-color: #79d866;
 }
 
+/* .carousel-inner {
+    transition: transform 10s ease-in-out;
+}
+
+.carousel-item {
+    transform: translateX(0);
+}
+
+.carousel-item .active {
+    transform: translateX(0);
+} */
+
+
 html {
     font-size: 62.5%;
 }

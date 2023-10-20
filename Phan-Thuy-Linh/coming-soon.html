@@ -42,7 +42,7 @@
     <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
     <link rel="stylesheet" href="./assets/font/stylesheet.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/onemoreheader.css"/>
+    <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/onemoreheader.css" />
     <link rel="stylesheet" href="../Nguyen_Ha_Kien/css/footer.css" />
     <title>Phim sắp chiếu</title>
   </head>
@@ -104,7 +104,7 @@
         <h2 class="sub-title on-air">Phim Sắp Chiếu</h2>
       </div>
 
-      <div class="carousel" data-bs-ride="carousel" id="carouselExample">
+      <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carouselExample">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="col-md-3 col-sm-4">
@@ -381,6 +381,8 @@
           next = next.nextElementSibling;
         }
       });
+      var carousel = document.getElementsById("carouselExample");
+      carousel.setAttribute("data-bs-interval", 1000);
     </script>
     <script src="../Nguyen_Ha_Kien/js/mobilemenu.js"></script>
   </body>
