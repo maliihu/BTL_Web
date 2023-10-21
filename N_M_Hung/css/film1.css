@@ -1,18 +1,19 @@
 
 /* sửa phần main, nội dung */
-.body_main_content{
+/* .body_main_content{
     width: 70%;
     margin: 0 auto;
-}
+} */
 .film_title_main{
-    display: inline-block;   
-    margin-top: 40px;
+    width: 70%;  
+    margin: 0 auto;
+    margin-top: 20px;
     font-size: 10px;
     margin-bottom: 20px;
 }
 .film_title_main h1{
     display: inline;
-    font-size: 24px;
+    font-size: 26px;
     color: #03599d;
 }
 .film_title_main h1 a {
@@ -24,31 +25,21 @@
     font-size: 22px;
     color: black;
 }
+.body_main_content > .page_content{
+    width: 70%;
+    margin: 0 auto;
+}
 .picture_banner{
     object-fit: cover;
-    height: 410px;
-    width: 260px;
-
+    height: 400px;
 }
 .banner-film{
-    height: 410px;
-    width: 260px;
+    width: 280px;
+    height: 100%;
     border-radius: 10px;
+    border: solid 2px #fff;
 }
 
-
-@media only screen and (max-width: 768px) {
-    .page_content{
-        margin-left: 100px;
-    }
-}
-
-.page_content{
-    display: flex;
-}
-.page_content .picture_banner{
-    float: left;
-}
 .div-mtd{
     display: flex;
     font-size: 20px;
@@ -57,9 +48,7 @@
     font-size: 28px;
     font-weight: bold;
 }
-.content_main{
-    margin-left: 50px;
-}
+
 .text-film{
     font-size: 18px;
     text-align: justify;
@@ -92,9 +81,7 @@
     cursor: pointer;
     border-radius: 10px;
     border: none;
-    margin-right: 20px;
     margin-top: 16px;
-    padding: 6px 12px;
 }
 .button-content:hover{
     background-image: linear-gradient(white, white);
@@ -171,6 +158,6 @@
     border: #fff solid 2px;
     width: 800px;
     height: 500px;
-    margin-left: 0px auto;
+    margin: 0px auto;
 }
 
