@@ -51,33 +51,32 @@ body {
     text-align: center;
 }
 
-/* Điều chỉnh chiều rộng của cột trên các kích thước màn hình khác nhau */
+
 @media screen and (max-width: 768px) {
     .col-md-3 {
-        flex: 0 0 100%; /* Chiếm toàn bộ chiều rộng */
+        flex: 0 0 100%; 
         max-width: 100%;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
     .col-md-3 {
-        flex: 0 0 50%; /* Chiếm 50% chiều rộng */
+        flex: 0 0 50%; 
         max-width: 50%;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .col-md-3 {
-        flex: 0 0 33.33%; /* Chiếm 33.33% chiều rộng */
+        flex: 0 0 33.33%; 
         max-width: 33.33%;
     }
 }
 
-/* Điều chỉnh các lớp cụ thể cho các kích thước màn hình khác nhau */
 @media screen and (max-width: 768px) {
     .card_footer {
-        font-size: 16px; /* Thay đổi kích thước font chân trang */
-        padding: 12px 16px; /* Điều chỉnh padding chân trang */
+        font-size: 16px; 
+        padding: 12px 16px; 
     }
 }
 
