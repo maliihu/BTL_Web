@@ -24,6 +24,11 @@ a {
     color: #FFF;
 }
 
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+
 .content{
     font-size: 1.6rem;
     width: 1110px;
@@ -49,9 +54,23 @@ a {
 
 .btn:hover {
     opacity: 0.9;
+    background-color: var(--primary-color);
 }
 /* =======Heading======== */
-/* .title {
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px 5px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.title {
     font-size: 3.5rem;
     margin-top: 10px;
     color: #FFF;
@@ -62,9 +81,9 @@ a {
     display: flex;
     position: relative;
     justify-content: flex-end;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     
-} */
+}
 
 
 /* .heading .sub-title::after {
@@ -133,6 +152,7 @@ a {
 
 .movie-name:hover {
     text-decoration: underline;
+    color: #000000;
 }
 
 .movie-desc {
@@ -244,16 +264,7 @@ a {
     .movie-item img {
         zoom: 60%;
     }
-    .heading{
-        display: flex;
-        justify-content: center;
-        margin: 20px 5px;
-        font-size: 3.5rem;
-        font-weight: bold;
-        
-        padding-bottom: 20px;
-        border-bottom: 2px solid var(--primary-color);
-    }
+    
     .heading .title{
         color: #000;
         font-size: 3.5rem;
@@ -284,17 +295,8 @@ a {
 @media screen and (max-width: 1010px) {
     .movie-item img {
         zoom: 65%;
-      }
-      .heading{
-        display: flex;
-        justify-content: center;
-        margin: 20px 5px;
-        font-size: 3.5rem;
-        font-weight: bold;
-        
-        padding-bottom: 20px;
-        border-bottom: 2px solid var(--primary-color);
     }
+    
     .heading .title{
         color: #000;
         font-size: 3.5rem;
@@ -313,7 +315,6 @@ a {
     }
     .heading .off-air:hover{
         color: #000000;
-        /* font-size: 3.6rem; */
     }
     
     .on-air {
@@ -341,4 +342,9 @@ a {
   .carousel-inner .carousel-item>div:first-child{
     display: block;
   }
+}
+@media (min-width: 768px) {
+    .col-md-3 {
+        width: auto;
+    }
 }
