@@ -1,0 +1,73 @@
+.swiper_main {
+    margin: 0 auto;
+    width: 90%;
+    height: 80vh;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+}
+
+.slide_main_1 {
+    background-image: url('../images/home_cinema4.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide_main_1_text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    bottom: 100PX;
+    left: 150px;
+    line-height: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slide_main_1_text > p:first-child{
+    font-size: 55px;
+}
+
+.slide_main_2 {
+    background-image: url('../images/film1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.slide_main_3 {
+    background-image: url('../images/film2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.slide_main_4 {
+    background-image: url('../images/film3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide_main_5 {
+    background-image: url('../images/scene2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide_main_6 {
+    background-image: url('../images/foods.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide_main_7 {
+    background-image: url('../images/ticketoffer.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
