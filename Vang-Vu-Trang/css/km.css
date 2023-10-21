@@ -16,11 +16,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .product span {
     padding: 25px 25px 25px 25px;
     font-size: 30px;
+}
+
+.product > h1 > a {
+    text-decoration: none;
+    color: black;
 }
 
 .col-sm-3 {

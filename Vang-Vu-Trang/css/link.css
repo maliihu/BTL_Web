@@ -5,7 +5,7 @@ body {
 }
 
 .img {
-    width: 1000px;
+    width: 900px;
     border: 10px dashed #ccc;
     padding: 20px;
     border-radius: 40px;
@@ -28,11 +28,14 @@ body {
     display: flex; 
     height: 100%;
     padding: 21px 200px 127px 0; 
+    /* float: left; */
+    width: 100%;
 }
 
 .left {
     flex: 1;
     padding: 20px;
+    width: 90%;
 }
 
 span.left{
