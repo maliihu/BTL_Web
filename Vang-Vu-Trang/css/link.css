@@ -27,7 +27,7 @@ body {
 .container {
     display: flex; 
     height: 100%;
-    padding: 21px 200px 127px 0; 
+    padding: 21px 20px 20px 0; 
     /* float: left; */
     width: 100%;
 }
@@ -80,4 +80,40 @@ span.left{
 .button1:hover {
     background-color: #0d3347;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .centered-text{
+        width: 100%;
+    }
+    .right{
+        display: none;
+    }
+    .img{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .centered-text{
+        width: 100%;
+    }
+    .right{
+        display: none;
+    }
+    .img{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .centered-text{
+        width: 100%;
+    }
+    .right{
+        display: none;
+    }
+    .img{
+        width: 85%;
+    }
 }
