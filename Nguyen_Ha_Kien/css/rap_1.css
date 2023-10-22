@@ -1,6 +1,13 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .title {
     margin-top: 30px;
+    color: black;
     text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
 }
 
 .container{
@@ -56,11 +63,11 @@
 }
 
 .list-odd{
-    background-color: #3799f2;
+    background-color: #214b61;
 }
 
 .list-even{
-    background-color: #1c7ed8;
+    background-color: #0d3347;
 }
 
 @media only screen and (max-width: 1280px){

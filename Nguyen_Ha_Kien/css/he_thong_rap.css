@@ -11,7 +11,8 @@ body {
     margin-top: 30px;
     color: black;
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
+    letter-spacing: 10px;
 }
 
 .card_list {
@@ -30,7 +31,7 @@ body {
     width: 100%;
     height: 80%;
     object-fit: cover;
-    border: #3799f2 solid 5px;
+    border: #0d3347 solid 5px;
     border-radius: 10px 10px 0 0;
     transition: transform 0.3s ease;
 }
@@ -42,18 +43,18 @@ body {
 
 .card_footer {
     height: 20%;
-    background-color: #1c7ed8;
+    background-color: #0d3347;
     border-radius: 0 0 10px 10px;
     padding-top: 20px;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .card_title {
     color: white;
     font-size: 15px;
     margin: 0;
-    padding-left: 20px;
     text-decoration: none;
     transition: color 0.3s ease;
     transition: font-weight 0.3s ease;
