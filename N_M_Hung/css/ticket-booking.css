@@ -219,14 +219,13 @@ input {
   font-weight: 400;
 }
 
-.price button {
-  background: rgb(60, 60, 60);
+.price > a > button{
   color: white;
-  font-family: poppins;
-  font-size: 18px;
-  padding: 7px 14px;
-  border-radius: 2mm;
-  outline: none;
-  border: none;
+  background-color: rgb(28, 185, 120);
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
   cursor: pointer;
+  padding-top: 5px;
+  border: none;
 }

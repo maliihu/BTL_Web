@@ -1,0 +1,24 @@
+form{
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+}
+table{
+    font-size: 18px;
+    margin: auto;
+}
+tr > td{
+    padding: 10px;
+}
+
+#name, #email, #phone{
+    width: 300px;
+}
+
+.submit{
+    width: 100px;
+    height: auto;
+    background-color: #0d3347;
+    color: white;
+}

@@ -106,14 +106,14 @@
     > .modal-dialog{
         > .modal-content{
             .modal-body{
-                font-weight: bold;
                 font-size: 24px;
                 text-align: center;
-                color: #337ab7;
-                margin: 0 auto;
+                color: rgb(0, 0, 0);
+                
             }
             .modal-footer{
-                > a{margin: 0 auto; 
+                > a{
+                    margin: 0 auto; 
                     > button{
                         background-color: #337ab7;
                         color: white;
