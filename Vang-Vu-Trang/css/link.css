@@ -15,7 +15,7 @@ body {
 }
 
 .centered-text {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -28,12 +28,10 @@ body {
     display: flex; 
     height: 100%;
     padding: 21px 20px 20px 0; 
-    /* float: left; */
     width: 100%;
 }
 
 .left {
-    flex: 1;
     padding: 20px;
     width: 90%;
 }
@@ -43,8 +41,7 @@ span.left{
 }
 
 .right {
-    flex: 1;
-    padding: 20px;
+    padding: 100px;
 }
 
 .img-right {
@@ -59,7 +56,7 @@ span.left{
     width: 310px;
     height: 175px;
 }
-.scrollable-content {
+.content {
     height: 500px;
     padding: 20px;
 }
@@ -82,9 +79,9 @@ span.left{
     color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 575px) {
     .centered-text{
-        width: 100%;
+        margin-bottom: 100%;
     }
     .right{
         display: none;
@@ -94,9 +91,9 @@ span.left{
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (max-width: 767px) {
     .centered-text{
-        width: 100%;
+        margin-bottom: 100%;
     }
     .right{
         display: none;
@@ -106,7 +103,7 @@ span.left{
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
     .centered-text{
         width: 100%;
     }
