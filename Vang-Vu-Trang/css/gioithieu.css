@@ -92,7 +92,9 @@ body{
 }
 @media screen and (min-width: 1199px) and (max-width: 1820px){
     .card{
-        background-image: none;
+        
+        background-size: 100%;
+        background-color: #efe7dc;
     }
     .content{
         column-count: 4;
@@ -104,4 +106,3 @@ body{
         left: 4%;
     }
 }
-
