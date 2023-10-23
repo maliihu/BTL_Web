@@ -1,9 +1,5 @@
 
 /* sửa phần main, nội dung */
-/* .body_main_content{
-    width: 70%;
-    margin: 0 auto;
-} */
 .film_title_main{
     width: 70%;  
     margin: 0 auto;
@@ -84,7 +80,7 @@
     margin-top: 16px;
 }
 .button-content:hover{
-    background-image: linear-gradient(white, white);
+    background-color: rgb(237, 237, 237);
     color: #0d3347;
 }
 .mt-3 > button{
@@ -99,19 +95,25 @@
     border-radius: 10px;
 }
 .mt-3 > button:hover{
-    background-image: linear-gradient(white, white);
+    background-color: rgb(237, 237, 237);
     color: #0d3347;
 }
 .modal{
     > .modal-dialog{
         > .modal-content{
             .modal-body{
-                font-size: 24px;
-                text-align: center;
-                color: rgb(0, 0, 0);
-                
+                > h1{
+                    text-align: center;
+                    color: rgb(0, 0, 0);
+                    font-size: 22px;
+                }
+                > .choose-cinema{
+                    text-align: center;
+                    
+                }
             }
             .modal-footer{
+                margin-top: 20px;
                 > a{
                     margin: 0 auto; 
                     > button{
@@ -121,6 +123,7 @@
                         width: 120px;
                         border-radius: 10px;
                         border: none;
+
                     }
                 }
             }

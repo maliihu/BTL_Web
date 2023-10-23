@@ -1,7 +1,7 @@
 
 let seats = document.querySelector(".all-seats");
 for (var i = 0; i < 60; i++) {
-  let randint = Math.floor(Math.random() * 2);
+  let randint = Math.floor(Math.random() * 5);
   let booked = randint === 1 ? "booked" : "";
   let inputElement = document.createElement("input");
   inputElement.type = "checkbox";
@@ -16,7 +16,7 @@ for (var i = 0; i < 60; i++) {
   seats.appendChild(inputElement);
   seats.appendChild(labelElement);
 }
-
+var ticket_price = 10
 let tickets = seats.querySelectorAll("input");
 tickets.forEach((ticket) => {
   ticket.addEventListener("change", () => {
@@ -27,15 +27,14 @@ tickets.forEach((ticket) => {
     if (!ticket.disabled) {
       if (ticket.checked) {
         count += 1;
-        amount += 200;
+        amount += ticket_price;
       } else {
         count -= 1;
-        amount -= 200;
+        amount -= ticket_price;
       }
     } else {
       ticket.checked = false;
     }
-
     document.querySelector(".amount").innerHTML = amount;
     document.querySelector(".count").innerHTML = count;
   });
