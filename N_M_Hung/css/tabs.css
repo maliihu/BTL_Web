@@ -51,3 +51,14 @@
 
 
 }
+
+
+
+/* Ẩn tất cả các tab nội dung ban đầu */
+.tabcontent {
+  display: none;
+}
+/* Hiển thị tab "RẠP PHIM 1" mặc định */
+#cinema1 {
+  display: block;
+}
