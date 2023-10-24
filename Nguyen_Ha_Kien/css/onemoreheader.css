@@ -107,6 +107,10 @@ body {
     color: white;
 }
 
+.time-dropdown-content > p:nth-child(2){
+    margin: 0;
+}
+
 .time-dropdown:hover .time-dropdown-content {
     display: block;
 }

@@ -14,10 +14,10 @@
 } */
 
 .slide_main_1 {
-    background-image: url('../images/home_cinema4.avif');
+    background-image: url('../images/cinema.avif');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center center;
 }
 
 .slide_main_1_text {
@@ -57,24 +57,24 @@
 }
 
 .slide_main_5 {
-    background-image: url('../images/scene2.webp');
+    background-image: url('../images/wolfoo2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
 }
 
 .slide_main_6 {
-    background-image: url('../images/foods.png');
-    background-size: 100% 100%;
+    background-image: url('../images/thecreator.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
 
 .slide_main_7 {
-    background-image: url('../images/ticketoffer.webp');
-    background-size: 100% 100%;
+    background-image: url('../images/pawpatrol.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
 }
 
 .film_select {

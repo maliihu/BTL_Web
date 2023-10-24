@@ -5,9 +5,9 @@ const swiper = new Swiper('.swiper_main', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    speed: 2000,
+    speed: 1800,
     autoplay: {
-        delay: 4000,
+        delay: 3000,
     },
 });
 
@@ -18,6 +18,10 @@ var swiper_film = new Swiper(".swiper_film", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
 });
 
