@@ -1,7 +1,7 @@
 
 let seats = document.querySelector(".all-seats");
-for (var i = 0; i < 60; i++) {
-  let randint = Math.floor(Math.random() * 5);
+for (var i = 0; i < 80; i++) {
+  let randint = Math.floor(Math.random() * 4);
   let booked = randint === 1 ? "booked" : "";
   let inputElement = document.createElement("input");
   inputElement.type = "checkbox";

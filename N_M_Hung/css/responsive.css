@@ -10,14 +10,27 @@
 }
 
 @media  screen and (min-width: 1001px) and (max-width: 1300px){
-    .banner-film{
-        height: auto;
-        width: 100%;
-    }
     
 }
 
-@media only screen and (max-width: 767px){
+@media screen and (max-width: 767px){
+    .body_main_content{
+        padding-right: 0;
+        width: 100%;
+    }
+    .film_title_main{
+        width: 100%;
+        font-size: 20px;
+    }
+    .title-film{
+        font-size: 20px;
+    }
+    .text-film{
+        font-size: 16px;
+    }
+    .div-mtd > div{
+        font-size: 16px;
+    }
     .body_main_content > .page_content{
         width: 100%;
     }

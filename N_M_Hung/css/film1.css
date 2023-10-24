@@ -1,15 +1,12 @@
 
 /* sửa phần main, nội dung */
-.film_title_main{
-    width: 70%;  
-    margin: 0 auto;
+.film_title_main{ 
+    margin-bottom: 10px;
     margin-top: 20px;
-    font-size: 10px;
-    margin-bottom: 20px;
 }
 .film_title_main h1{
     display: inline;
-    font-size: 26px;
+    font-size: 23px;
     color: #03599d;
 }
 .film_title_main h1 a {
@@ -21,13 +18,16 @@
     font-size: 22px;
     color: black;
 }
-.body_main_content > .page_content{
-    width: 70%;
+.body_main_content{
+    width: 80%;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .picture_banner{
-    object-fit: cover;
     height: 400px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .banner-film{
     width: 280px;
@@ -38,7 +38,9 @@
 
 .div-mtd{
     display: flex;
-    font-size: 20px;
+    > div{
+        font-size: 18px;
+    }
 }
 .title-film{
     font-size: 28px;
@@ -52,7 +54,6 @@
 }
 .row{
     width: 100%;
-    padding-top: 5px;
 }
 .col-left{
     font-weight: bold; 
