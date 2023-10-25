@@ -45,7 +45,7 @@
       rel="stylesheet"
     />
     <script src="js/logic.js"></script>
-    <title>Đăng nhập</title>
+    <title>Đăng Nhập</title>
   </head>
 
   <body>
@@ -95,7 +95,7 @@
 <!-- kết thúc header -->
 
 <!-- bắt đầu body -->
-    <form>
+    <form name="formCinema" action="logic.html">
         <h1>Vui lòng nhập thông tin của bạn</h1>
         <table>
             <tr>
@@ -103,7 +103,7 @@
                     Họ và tên 
                 </td>
                 <td>
-                    <input type="text" id="name">
+                    <input type="text" name="fullname">
                 </td>
             </tr>
             <tr>
@@ -111,7 +111,7 @@
                     Email
                 </td>
                 <td>
-                    <input type="text" id="email">
+                    <input type="text" name="email" >
                 </td>
             </tr>
             <tr>
@@ -119,7 +119,7 @@
                     Số điện thoại
                 </td>
                 <td>
-                    <input type="number" id="phone">
+                    <input type="text" name="phone">
                 </td>
             </tr>
             <tr>
@@ -133,7 +133,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onclick="send()" type="button" class="submit" value="Gửi">
+                    <input onclick="validform(document.forms.formCinema);" type="button" class="submit" value="Gửi">
                 </td>
             </tr>
         </table>
