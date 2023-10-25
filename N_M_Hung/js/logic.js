@@ -34,7 +34,7 @@ function notCheck(radio) {
     return flag;
 }
 
-function StringMacth(txt, reg) {
+function StringMatch(txt, reg) {
     return reg.test(txt.value);
 }
 
@@ -58,7 +58,7 @@ function validform(f) {
         alert("Giới tính chưa được chọn");
         return;
     }
-    if (!StringMacth(f.email, check_email)) {
+    if (!StringMatch(f.email, check_email)) {
         alert("Email không đúng");
         f.email.value = "";
         f.email.focus();
