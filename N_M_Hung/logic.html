@@ -96,7 +96,7 @@
 <!-- kết thúc header -->
 
 <!-- bắt đầu body -->
-    <form name="formCinema" action="logic.html">
+    <form name="myForm" id="myForm" onsubmit="validform(this); return false;">
         <h1>Vui lòng nhập thông tin của bạn</h1>
         <table>
             <tr>
@@ -104,7 +104,7 @@
                     Họ và tên 
                 </td>
                 <td>
-                    <input type="text" name="fullname">
+                    <input type="text" name="fullname" class="input1">
                 </td>
             </tr>
             <tr>
@@ -112,7 +112,7 @@
                     Email
                 </td>
                 <td>
-                    <input type="text" name="email" >
+                    <input type="text" name="email" class="input1">
                 </td>
             </tr>
             <tr>
@@ -120,21 +120,22 @@
                     Số điện thoại
                 </td>
                 <td>
-                    <input type="text" name="phone">
+                    <input type="text" name="phone" class="input1">
                 </td>
             </tr>
             <tr>
                 <td>
                     Giới tính
                 </td>
-                <td>
+                <td class="input2">
                     <input type="radio" name="gender" value="male">Nam
                     <input type="radio" name="gender" value="female">Nữ
+                    <input type="radio" name="gender" value="fe">Không muốn trả lời
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input onclick="validform(document.forms.formCinema);" type="button" class="submit" value="Gửi">
+                    <input onclick="validform(document.forms.myForm);" type="button" class="submit" value="Gửi">
                 </td>
             </tr>
         </table>

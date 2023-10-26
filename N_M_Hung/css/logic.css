@@ -7,18 +7,32 @@ h1{
 table{
     font-size: 18px;
     margin: auto;
+
 }
 tr > td{
     padding: 10px;
-}
 
-#name, #email, #phone{
+}
+.input1{
     width: 300px;
 }
+
 
 .submit{
     width: 100px;
     height: auto;
     background-color: #0d3347;
     color: white;
+}
+
+.input2 input{
+    margin-right: 10px;
+}
+@media screen and (max-width: 400px) {
+    table tr td{
+        display: inline;
+    }
+    .input2{
+        display: inline-block;
+    }
 }
