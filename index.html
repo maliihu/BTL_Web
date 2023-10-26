@@ -257,7 +257,7 @@
         <img src="Nguyen_Ha_Kien/images/special-offers.jpg" alt="">
       </a>
     </div>
-
+    <a href="#" class="to-top"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></a>
     <div class="footer">
       <div class="footer-container">
         <div class="footer-customer">
@@ -289,7 +289,18 @@
         </div>
       </div>
     </div>
+    <script>
+      const toTop = document.querySelector(".to-top");
+      window.addEventListener("scroll", () => {
+        if(window.pageYOffset > 100) {
+            toTop.classList.add("active");
+        }
+        else{
+            toTop.classList.remove("active");
+        }
+      })
 
+    </script>
     <script src="Nguyen_Ha_Kien/js/mobilemenu.js"></script>
     <script src="Nguyen_Ha_Kien/js/home_swiper.js"></script>
   </body>

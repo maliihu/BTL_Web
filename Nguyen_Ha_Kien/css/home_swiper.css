@@ -189,6 +189,30 @@
     border: #0d3347 1px solid;
     border-radius: 10px;
 }
+.to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d3347;
+    position: fixed;
+    bottom: 30px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #ffffff 2px solid;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all .5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.to-top.active {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
 
 /* @media only screen and (max-width: 1290px){
     
