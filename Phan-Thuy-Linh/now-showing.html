@@ -438,6 +438,7 @@
             </li>
         </ul>
     </div>
+    <a href="#" class="to-top"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></a>
 
     <!-- =======Footer======= -->
     <div class="footer">
@@ -476,19 +477,16 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      var items = document.querySelectorAll(".carousel .carousel-item");
-      items.forEach((e) => {
-        const slide = 4;
-        let next = e.nextElementSibling;
-        for (var i = 0; i < slide; i++) {
-          if (!next) {
-            next = items[0];
-          }
-          let clonechild = next.cloneNode(true);
-          e.appendChild(clonechild.children[0]);
-          next = next.nextElementSibling;
+      const toTop = document.querySelector(".to-top");
+      window.addEventListener("scroll", () => {
+        if(window.pageYOffset > 100) {
+            toTop.classList.add("active");
         }
-      });
+        else{
+            toTop.classList.remove("active");
+        }
+      })
+
     </script>
     <script src="../Nguyen_Ha_Kien/js/mobilemenu.js"></script>
   </body>
