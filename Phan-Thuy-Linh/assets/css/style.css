@@ -164,6 +164,28 @@ ul, li {
 .buy-cta i {
     margin-right: 3px;
 }
+.to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 30px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    transition: all .5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.to-top.active {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
 /* =====Slide====== */
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
