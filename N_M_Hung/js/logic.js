@@ -1,5 +1,6 @@
-var check_phone = /^d{10}$/;
+var check_phone = /^0+[35789][0-9]{8}$/;
 var check_email = /^([\w-]+(\?\:\.[\w-]+)*)@((\?\:[\w-]\.)*\w[\w-]{0,66})\.([a-z]{2,6}(\?\:\.[a-z]{2})?)$/;
+var check_name = /^[^\d!@#$%^&*()_+{}\[\]:;<>,.?~`|\\/"'=-]*$/;
 
 function checknull(txt) {
     if (txt.value.length == 0)
@@ -26,6 +27,12 @@ function validform(f) {
         f.fullname.focus();
         return;
     }
+    if(!StringMatch(f.fullname, check_name)) {
+        alert("Tên không hợp lệ");
+        f.fullname.value = "";
+        f.fullname.focus();
+        return;
+    }
     if (checknull(f.email)) {
         alert("Bạn chưa nhập email");
         f.email.focus();
@@ -40,18 +47,19 @@ function validform(f) {
         alert("Giới tính chưa được chọn");
         return;
     }
+    
     if (!StringMatch(f.email, check_email)) {
         alert("Email không đúng");
         f.email.value = "";
         f.email.focus();
         return;
     }
-    // if (!StringMacth(f.phone, check_phone)) {
-    //     alert("Số điện thoại không đúng");
-    //     f.phone.value = "";
-    //     f.phone.focus();
-    //     return;
-    // }
+    if (!StringMatch(f.phone, check_phone)) {
+        alert("Số điện thoại không đúng");
+        f.phone.value = "";
+        f.phone.focus();
+        return;
+    }
     alert("Xác nhận thông tin thành công! Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi. Chúc bạn một ngày mới tốt lành <3.");
     window.location.reload();
 }
