@@ -1,6 +1,6 @@
 # BTL WEB DESIGN CNTT UTC 2023
 
-[Website](https://14nmh.github.io/BTL_Web/)
+[Website](https://maliihu.github.io/BTL_Web/)
 
 **Nguyễn Mạnh Hùng**  
 **Nguyễn Hà Kiên**  
